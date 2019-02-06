@@ -29,9 +29,10 @@ class App extends Component {
     //populated arrayOfDays
     for(let i=0;i<=numberOfBookings;i++) {
       let dayOfMonth = Math.floor(Math.random() * daysInMonth + 1) ;
-      if(!arrOfDays.includes(dayOfMonth)) {
-        arrOfDays.push(dayOfMonth)
-      }
+      // if(!arrOfDays.includes(dayOfMonth)) {
+      //   arrOfDays.push(dayOfMonth)
+      // }
+      arrOfDays.push(dayOfMonth)
     }
 
     const createEvent = (i) => {
